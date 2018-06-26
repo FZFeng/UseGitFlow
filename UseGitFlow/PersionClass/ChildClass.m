@@ -11,7 +11,7 @@
 @implementation ChildClass
 - (void)cry{
 
-    NSLog(@"cry to pare");
+    NSLog(@"developa");
     NSLog(@"anthor");
 }
 

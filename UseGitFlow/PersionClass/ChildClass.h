@@ -10,4 +10,5 @@
 
 @interface ChildClass : NSObject
 
+- (void)cry;
 @end

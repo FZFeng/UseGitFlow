@@ -9,5 +9,9 @@
 #import "ChildClass.h"
 
 @implementation ChildClass
+- (void)cry{
+
+    NSLog(@"cry to parents");
+}
 
 @end

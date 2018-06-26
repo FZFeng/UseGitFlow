@@ -13,6 +13,7 @@
 		7D1E30B520E1EAC600A9F8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1E30B420E1EAC600A9F8CF /* Assets.xcassets */; };
 		7D1E30B820E1EAC600A9F8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1E30B620E1EAC600A9F8CF /* LaunchScreen.storyboard */; };
 		7D1E30BB20E1EAC600A9F8CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E30BA20E1EAC600A9F8CF /* main.m */; };
+		7D1E30C420E1EB9700A9F8CF /* ChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E30C320E1EB9700A9F8CF /* ChildClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7D1E30B720E1EAC600A9F8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1E30B920E1EAC600A9F8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D1E30BA20E1EAC600A9F8CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D1E30C220E1EB9700A9F8CF /* ChildClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildClass.h; sourceTree = "<group>"; };
+		7D1E30C320E1EB9700A9F8CF /* ChildClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		7D1E30AA20E1EAC300A9F8CF /* UseGitFlow */ = {
 			isa = PBXGroup;
 			children = (
+				7D1E30C120E1EB7400A9F8CF /* PersionClass */,
 				7D1E30AB20E1EAC300A9F8CF /* AppDelegate.h */,
 				7D1E30AC20E1EAC300A9F8CF /* AppDelegate.m */,
 				7D1E30AE20E1EAC300A9F8CF /* ViewController.h */,
@@ -69,6 +73,15 @@
 				7D1E30BA20E1EAC600A9F8CF /* main.m */,
 			);
 			path = UseGitFlow;
+			sourceTree = "<group>";
+		};
+		7D1E30C120E1EB7400A9F8CF /* PersionClass */ = {
+			isa = PBXGroup;
+			children = (
+				7D1E30C220E1EB9700A9F8CF /* ChildClass.h */,
+				7D1E30C320E1EB9700A9F8CF /* ChildClass.m */,
+			);
+			path = PersionClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D1E30B020E1EAC300A9F8CF /* ViewController.m in Sources */,
+				7D1E30C420E1EB9700A9F8CF /* ChildClass.m in Sources */,
 				7D1E30BB20E1EAC600A9F8CF /* main.m in Sources */,
 				7D1E30AD20E1EAC300A9F8CF /* AppDelegate.m in Sources */,
 			);

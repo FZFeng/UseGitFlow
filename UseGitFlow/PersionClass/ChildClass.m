@@ -11,7 +11,8 @@
 @implementation ChildClass
 - (void)cry{
 
-    NSLog(@"cry to parents");
+    NSLog(@"cry to pare");
+    NSLog(@"anthor");
 }
 
 @end
